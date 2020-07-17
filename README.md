@@ -1,4 +1,4 @@
-# Aesop-Mockup2
+# Aesop Mockup
 A website that runs on REACT.
 
 <br> <br>
