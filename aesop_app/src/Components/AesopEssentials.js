@@ -81,3 +81,14 @@ const responsive = {
 </Carousel>;
 
 export default AesopEssentials;
+
+
+{/*TO DO
+1. Input text for all items
+2. Get images for all items
+-make photo asset folder
+3. Rename carousel if possible
+4. Link this aesopEssentials.js with the rest of the group project
+-Carousel:https://www.npmjs.com/package/react-multi-carousel
+
+*/ }
