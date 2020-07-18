@@ -1,5 +1,21 @@
+.banner > h1, h2, h3, h4 {
+    color: white;
+}
 .banner {
-    /* background */
+    background-image: url(./Aesop-Homepage-Banner.jpg);
+    height: 60vh;
+    width: 100vw;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* text-align: left; */
+
+}
+.hero-text {
+    text-align: left;
+    padding-top: 12%;
+    /* padding-bottom: 5%; */
+
 }
 
 .left-head {
