@@ -27,6 +27,7 @@ export default class Fragrance extends Component {
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                     <img src={roomspray} class="d-block w-100" alt="Istros Aromatique Room Spray"/>
+                    <br/>
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Istros Aromatique Room Spray</h5>
                         <p>Enlivening florals; smoky Tobacco</p>
@@ -34,6 +35,7 @@ export default class Fragrance extends Component {
                     </div>
                     <div class="carousel-item">
                     <img src={tacit} class="d-block w-100" alt="Tacit Eau de Parfum"/>
+                    <br/>
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Tacit Eau de Parfum</h5>
                         <p>Basil Grand Vert, fresh citrus notes</p>
@@ -41,6 +43,7 @@ export default class Fragrance extends Component {
                     </div>
                     <div class="carousel-item">
                     <img src={isabelle} class="d-block w-100" alt="Isabelle Oil Burner Blend"/>
+                    <br/>
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Isabelle Oil Burner Blend</h5>
                         <p>Stimulating scents of Spearmint, Rose</p>
@@ -48,6 +51,7 @@ export default class Fragrance extends Component {
                     </div>
                     <div class="carousel-item">
                     <img src={marrakech} class="d-block w-100" alt="Marrakech Intense Parfum"/>
+                    <br/>
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Marrakech Intense Parfum</h5>
                         <p>Woody, spicy notes; fresh florals</p>
@@ -55,6 +59,7 @@ export default class Fragrance extends Component {
                     </div>
                     <div class="carousel-item">
                     <img src={hwyl} class="d-block w-100" alt="Hwyl Eau de Parfum"/>
+                    <br/>
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Hwyl Eau de Parfum</h5>
                         <p>Dark, earthy Cypress with notes of Vetiver</p>
