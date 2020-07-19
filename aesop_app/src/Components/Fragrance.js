@@ -11,7 +11,7 @@ import hwyl from './images/hwyl.png'
 export default class Fragrance extends Component {
     render() {
         return (
-            <div>
+            <div class = "container-sm">
                 <div className="FragranceHeading">
                     <p>Fragrance</p>
                     <h2>An aromatic signature</h2>
