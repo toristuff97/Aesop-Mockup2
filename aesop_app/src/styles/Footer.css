@@ -1,0 +1,118 @@
+/* footer comp css */
+.lists{
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    padding-top: 12px;
+}
+.footer {
+    margin-top: 25vh;
+    
+}
+
+#footer-hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#email {
+    font-size: 11px;
+    padding-left: 40px;
+
+}
+
+#email>p{
+    padding-bottom: 10px;    
+}
+
+
+#email input {
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 5vh;
+}
+
+#email-hr {
+    width: 35vw;
+    border: 0;
+    height: 0;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#links {
+    padding-left: 10px;
+}
+
+#links a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.contact-us li {
+    font-size: 12px;
+    font-weight: bold;
+    list-style: none;
+    padding-top: 20px;
+}
+
+
+.about li {
+    font-size: 12px;
+    font-weight: bold;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.social a{
+    text-decoration: none;
+    color: black;
+}
+
+.social li {
+    font-size: 12px;
+    font-weight: bold;
+    list-style: none;
+    padding-top: 20px;
+}
+
+#chatbox {
+    margin-left: 95vw;
+    width: 2vw;
+    border: black 1px solid;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+#geotag {
+    background-color: #333333;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+
+#aesop {
+    margin-left: 1vw;
+}
+
+#us {
+    margin-right: 1vw;
+    color: white;
+    margin-bottom: 0vh;
+}
+
+#us a {
+    text-decoration: none;
+}
+
+#us:hover {
+    text-decoration: underline;
+}
