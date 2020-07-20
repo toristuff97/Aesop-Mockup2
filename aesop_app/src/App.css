@@ -24,6 +24,25 @@
   color: white;
 }
 
+.Fragrance {
+  background-color: #FFFEF3;
+}
+
+p {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  color: black
+}
+
+h2 {
+  font-family: 'Open Sans';
+}
+
+h5 {
+  color: black;
+  font-family: 'Amiri';
+}
+
 .App-link {
   color: #61dafb;
 }
