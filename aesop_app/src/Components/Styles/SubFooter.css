@@ -1,0 +1,8 @@
+.subfooter {
+    border: 2px solid black;
+    padding-top: 6em;
+    padding-bottom: 5em;
+}
+.quote-text {
+    font-size: 150%;
+}
