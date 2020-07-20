@@ -1,5 +1,11 @@
+import './styles/NurturingFormulations';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Logo from '../assets/images/for_all_products/Aesop-SkinParsley-Seed-Facial-Cleanser-100mL-large.png';
+import Logo1 from '../assets/images/for_all_products/Aesop-Skin-Mandarin-Facial-Hydrating-Cream-60mL-large.png';
+import Logo2 from '../assets/images/for_all_products/Aesop-Skin-Fabulous-Face-Oil-25mL-Large-684x668px.png';
+import Logo3 from '../assets/images/for_all_products/Aesop-SkinParsley-Seed-Facial-Cleanser-100mL-large.png';
+import Logo4 from '../assets/images/for_all_products/Aesop-Skin-In-Two-Minds-Facial-Cleanser-200mL-Large-835x962px.png';
 
 
 const responsive = {
