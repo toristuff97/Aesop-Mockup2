@@ -3,11 +3,12 @@
 }
 .banner {
     background-image: url(./Aesop-Homepage-Banner.jpg);
-    height: 60vh;
-    width: 100vw;
+    height: 50vh;
+    /* width: 100vw; */
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
     /* text-align: left; */
 
 }

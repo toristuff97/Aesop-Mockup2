@@ -10,6 +10,9 @@ class TitleBanner extends React.Component {
         return (
             <div>
                 <div className='banner'>
+                    <div className='nav-div'>
+                        {/* put nav bar here */}
+                    </div>
                     <Container className='hero-text'>
                         <Row>
                             <Col sm={4}>
