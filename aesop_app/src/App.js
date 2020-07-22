@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
+import SubFooter from './Components/SubFooter'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import ShippingModal from './Components/ShippingModal';
 import TitleBanner from './Components/TitleBanner';
 import AesopEssentials from './Components/AesopEssentials';
@@ -11,6 +11,7 @@ import ArchiAndDesign from './Components/Architecture-Design/ArchiAndDesign';
 import NurturingFormulations from './Components/NuturingFormulations';
 import Discover from './Components/Discover'; 
 import Footer from './Components/Footer';
+
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
       <ArchiAndDesign />
       <NurturingFormulations />
       <Discover />
-      {/* SubFooter Component Goes Here */}
+      <SubFooter />
       <Footer />
     </div>
   );
