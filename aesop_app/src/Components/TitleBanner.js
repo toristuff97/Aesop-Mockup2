@@ -1,8 +1,9 @@
 import React from 'react';
-import './TitleBanner.css';
+import './Styles/TitleBanner.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import NavBar from './NavBar'
 // import assets from 'src'
 
 class TitleBanner extends React.Component {
@@ -11,7 +12,7 @@ class TitleBanner extends React.Component {
             <div>
                 <div className='banner'>
                     <div className='nav-div'>
-                        {/* put nav bar here */}
+                        <NavBar />
                     </div>
                     <Container className='hero-text'>
                         <Row>
