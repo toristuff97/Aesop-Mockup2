@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import TitleBanner from './Components/TitleBanner';
 import ShippingModal from './Components/ShippingModal';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Fragrance from './Components/Fragrance';
@@ -10,10 +11,10 @@ import HandsAndBody from './Components/HandsAndBody';
 import Footer from './Components/Footer';
 
 
-
 function App() {
   return (
     <div className="App">
+      <TitleBanner />
       <ShippingModal />
       <AesopEssentials />
       <Fragrance />
