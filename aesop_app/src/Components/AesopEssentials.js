@@ -1,30 +1,34 @@
-import React from "react";
-import "./styles/AesopEssentials";
-import Aesop1 from "../assets/images/staple_products/Aesop-Hand-Resurrection-Aromatique-Hand-Wash-500mL-large.png";
-import Aesop2 from "../assets/images/staple_products/Aesop-Body-Resurrection-Aromatique-Hand-Balm-75mL-large.png";
-import Aesop3 from "../assets/images/staple_products/Large-PNG-Aesop-Personal-Deodorant-50mL-large.png";
+import React, { Component } from "react"
+//import 'src/Components/Styles/AesopEssentials.css';
+import Aesop1 from "../assets/aesop_essentials/Hand-Resurrection-Aromatique-Hand-Wash.png";
+import Aesop2 from "../assets/aesop_essentials/Body-Resurrection-Aromatique-Hand-Balm.png";
+import Aesop3 from "../assets/aesop_essentials/Personal-Deodorant.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-const responsive = {
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 3,
-    slidesToSlide: 3, // optional, default to 1.
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 2,
-    slidesToSlide: 2, // optional, default to 1.
-  },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1,
-    slidesToSlide: 1, // optional, default to 1.
-  },
-};
+class AesopEssentials extends Component {
+  render() {
+    const responsive = {
+      desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 3,
+        slidesToSlide: 3, // optional, default to 1.
+      },
+      tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 2,
+        slidesToSlide: 2, // optional, default to 1.
+      },
+      mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1,
+        slidesToSlide: 1, // optional, default to 1.
+      },
+    };
 
-<Carousel
+    return (
+      <div>
+        <Carousel
   swipeable={false}
   draggable={false}
   showDots={true}
@@ -90,6 +94,15 @@ const responsive = {
 
   </div>
 </Carousel>;
+      </div>
+    )
+  }
+}
+
+
+
+
+
 
 export default AesopEssentials;
 

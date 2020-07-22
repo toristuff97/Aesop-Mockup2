@@ -5,7 +5,7 @@ import React from 'react';
 class Discover extends React.Component {
         render() { 
             return (
-            <div className="child discover">
+            <div className="parent">
 
                 <div className="image">
                     <img src='../src/assets/staple_products/Aesop-Hand-Resurrection-Aromatique-Hand-Wash-500mL-large.png' alt='Handwash Image'></img>

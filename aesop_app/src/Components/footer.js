@@ -1,5 +1,5 @@
 import React from 'react';
-import chatBox from '../assets/images/chatbox-icon.png';
+import chatBox from './Components/images/chatbox-icon.png';
 import './styles/Footer.css';
 
 function Footer() {

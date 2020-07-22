@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import jquery from 'jquery';
-import 'popper.js';
+import { createPopper } from '@popperjs/core';
 import rosebody from './images/rosebody.png';
 import redemption from './images/redemption.png';
 import geraniumbody from './images/geraniumbody.png';

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import jquery from 'jquery';
-import 'popper.js';
+import { createPopper } from '@popperjs/core';
 import roomspray from './images/istrosroomspray.png'
 import tacit from './images/tacit.png'
 import isabelle from './images/isabelle.png'
