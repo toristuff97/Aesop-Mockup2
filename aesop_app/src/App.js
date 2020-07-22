@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import ShippingModal from './Components/ShippingModal';
+import TitleBanner from './Components/TitleBanner';
+import AesopEssentials from './Components/AesopEssentials';
+import Fragrance from './Components/Fragrance';
+import HandsAndBody from './Components/HandsAndBody';
+import ArchiAndDesign from './Components/Architecture-Design/ArchiAndDesign';
+import NurturingFormulations from './Components/NuturingFormulations';
+import Discover from './Components/Discover'; 
+import Footer from './Components/Footer';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ShippingModal />
+      <TitleBanner />
+      <AesopEssentials />
+      {/* GiftKits Component Goes Here */}
+      <Fragrance />
+      {/* AllGifts Component Goes Here */}
+      <HandsAndBody />
+      <ArchiAndDesign />
+      <NurturingFormulations />
+      <Discover />
+      {/* SubFooter Component Goes Here */}
+      <Footer />
     </div>
   );
 }
