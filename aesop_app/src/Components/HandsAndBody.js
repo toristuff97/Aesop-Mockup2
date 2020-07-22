@@ -31,7 +31,7 @@ export default class HandsAndBody extends Component {
         <div class="carousel-item active">
             <img src={rosebody} class="d-block w-100" alt="A Rose By Any Other Name Body Cleanser"/>
             <br/>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="bsPrefix d-none d-md-block">
                 <h5>A Rose By Any Other Name Body Cleanser</h5>
                 <p>Gentle yet thorough cleansing with botanical extracts</p>
             </div>
@@ -39,7 +39,7 @@ export default class HandsAndBody extends Component {
         <div class="carousel-item">
             <img src={redemption} class="d-block w-100" alt="Redemption Body Scrub"/>
             <br/>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="bsPrefix d-none d-md-block">
                 <h5>Redemption Body Scrub</h5>
                 <p>Bamboo Stem and Pumice, to polish skin</p>
             </div>
@@ -47,7 +47,7 @@ export default class HandsAndBody extends Component {
         <div class="carousel-item">
             <img src={bodyslab} class="d-block w-100" alt="Body Cleansing Slab"/>
             <br/>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="bsPrefix d-none d-md-block">
                 <h5>Body Cleansing Slab</h5>
                 <p>Enriched with Bergamot Rind, Tahitian Lime</p>
             </div>
@@ -55,7 +55,7 @@ export default class HandsAndBody extends Component {
         <div class="carousel-item">
             <img src={geraniumbody} class="d-block w-100" alt="Geranium Leaf Body Cleanser"/>
             <br/>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="bsPrefix d-none d-md-block">
                 <h5>Geranium Leaf Body Cleanser</h5>
                 <p>Mandarin and Bergamot Rind refresh skin</p>
             </div>
@@ -63,7 +63,7 @@ export default class HandsAndBody extends Component {
         <div class="carousel-item">
             <img src={geraniumscrub} class="d-block w-100" alt="Geranium Leaf Body Scrub"/>
             <br/>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="bsPrefix d-none d-md-block">
                 <h5>Geranium Leaf Body Scrub</h5>
                 <p>Purifying oils cleanse and smooth skin</p>
             </div>
