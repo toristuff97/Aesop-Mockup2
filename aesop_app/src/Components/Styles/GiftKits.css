@@ -1,0 +1,18 @@
+  
+.parent {
+    background-color: #FFFEF3;
+  }
+  
+  .pic {
+    height: 340px;
+    width: 700px;
+    margin-bottom: 100px;
+    margin-left: 140px;
+  }
+
+  button {
+    background-color: #FFFEF3;
+    border: solid #c1c0b7 0.25px;
+    padding: 12px;
+    font-size: 7pt;
+  }
