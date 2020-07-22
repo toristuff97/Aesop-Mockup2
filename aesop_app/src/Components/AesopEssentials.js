@@ -3,7 +3,6 @@ import "./styles/AesopEssentials";
 import Aesop1 from "../assets/images/staple_products/Aesop-Hand-Resurrection-Aromatique-Hand-Wash-500mL-large.png";
 import Aesop2 from "../assets/images/staple_products/Aesop-Body-Resurrection-Aromatique-Hand-Balm-75mL-large.png";
 import Aesop3 from "../assets/images/staple_products/Large-PNG-Aesop-Personal-Deodorant-50mL-large.png";
-
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -24,6 +23,7 @@ const responsive = {
     slidesToSlide: 1, // optional, default to 1.
   },
 };
+
 <Carousel
   swipeable={false}
   draggable={false}
@@ -41,7 +41,9 @@ const responsive = {
   deviceType={this.props.deviceType}
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
->
+  >
+
+
   <div className="wrapper1">
     <div className="wrapper1-child">
       <p>Aesop essentials</p>
@@ -85,13 +87,13 @@ const responsive = {
       <h5>Deodorant</h5>
       <p>Woody, herbaceous, earthy aromatique</p>
     </div>
+
   </div>
 </Carousel>;
 
 export default AesopEssentials;
 
-{
-  /*TO DO
+/*
 1. Input text for all items
 2. Get images for all items
 -make photo asset folder
@@ -99,16 +101,5 @@ export default AesopEssentials;
 4. Link this aesopEssentials.js with the rest of the group project
 -Carousel:https://www.npmjs.com/package/react-multi-carousel
 */
-}
 
-{
-  /*TO DO
-1. Input text for all items
-2. Get images for all items
--make photo asset folder
-3. Rename carousel if possible
-4. Link this aesopEssentials.js with the rest of the group project
--Carousel:https://www.npmjs.com/package/react-multi-carousel
 
-*/
-}
