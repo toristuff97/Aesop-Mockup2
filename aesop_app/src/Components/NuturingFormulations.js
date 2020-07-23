@@ -3,11 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import jquery from "jquery";
 import { createPopper } from '@popperjs/core';
 import Carousel from "react-bootstrap/Carousel";
-import Parsely from "src/assets/nurturing_formulations/Parsley-Seed-Facial-Cleanser.png";
-import Mandarin from "src/assets/nurturing_formulations/Mandarin-Facial-Hydrating-Cream.png";
-import Fabulous from "src/assets/nurturing_formulations/Fabulous-Face-Oil.png";
-import BnT from "src/assets/nurturing_formulations/B-Tea-Balancing-Toner.png";
-import Intwo from "src/assets/nurturing_formulations/In-Two-Minds-Facial-Cleanser.png";
+import Parsely from "../Components/images/nurturing_formulations/Parsley-Seed-Facial-Cleanser.png";
+import Mandarin from "../Components/images/nurturing_formulations/Mandarin-Facial-Hydrating-Cream.png";
+import Fabulous from "../Components/images/nurturing_formulations/Fabulous-Face-Oil.png";
+import BnT from "../Components/images/nurturing_formulations/B-Tea-Balancing-Toner.png";
+import Intwo from "../Components/images/nurturing_formulations/In-Two-Minds-Facial-Cleanser.png";
 
 
 export default class NurturingFormulations extends Component {
@@ -62,7 +62,7 @@ export default class NurturingFormulations extends Component {
               <br />
               <div class="carousel-caption d-none d-md-block">
                 <h2>Fabulous Face Oil</h2>
-                <p>Botanically based hydration boost</p>>
+                <p>Botanically based hydration boost</p>
               </div>
             </div>
             <div class="carousel-item">

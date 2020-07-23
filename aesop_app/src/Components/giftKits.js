@@ -1,6 +1,6 @@
 import React from 'react';
 import Pic from '../assets/Aesop-Gift-Kits-2019-20-Hybris-Range-Page-Secondary-Mid-Desktop-1690x945px.png';
-import './styles/GiftKits.css';
+import './Styles/GiftKits.css';
 
 
 function GiftKits() {

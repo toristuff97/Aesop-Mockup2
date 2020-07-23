@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ShippingModal from './Components/ShippingModal';
 import TitleBanner from './Components/TitleBanner';
 import AesopEssentials from './Components/AesopEssentials';
-import GiftKits from './Components/GiftKits';
+import GiftKits from './Components/giftKits';
 import Fragrance from './Components/Fragrance';
 import AllGifts from './Components/AllGifts';
 import HandsAndBody from './Components/HandsAndBody';
@@ -19,10 +19,10 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
-      <ShippingModal />
+      {ShippingModal }
       <TitleBanner />
       <AesopEssentials />
-      <GiftKits />
+      {GiftKits }
       <Fragrance />
       <AllGifts />
       <HandsAndBody />
@@ -30,7 +30,7 @@ function App() {
       <NurturingFormulations />
       <Discover />
       <SubFooter />
-      <Footer />
+      <Footer/>
     </div>
   );
 }
